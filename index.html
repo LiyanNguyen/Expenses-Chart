@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Expenses Chart</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<section id="balanceCard">
+			<div class="leftSide">
+				<p>My balance</p>
+				<h1>$921.48</h1>
+			</div>
+			<div class="rightSide">
+				<img src="images/logo.svg" alt="">
+			</div>
+		</section>
+		<section id="spendingCard">
+			<h2>Spending - Last 7 days</h2>
+			<div id="chartArea">
+				<div class="barContainer">
+					<div id="bar1" class="bar">
+						<div class="spendingContainer" id="spending1">$00.00</div>
+					</div>
+					<p>mon</p>
+				</div>
+				<div class="barContainer">
+					<div id="bar2" class="bar">
+						<div class="spendingContainer" id="spending2">$00.00</div>
+					</div>
+					<p>tue</p>
+				</div>
+				<div class="barContainer">
+					<div id="bar3" class="bar">
+						<div class="spendingContainer" id="spending3">$00.00</div>
+					</div>
+					<p>wed</p>
+				</div>
+				<div class="barContainer">
+					<div id="bar4" class="bar">
+						<div class="spendingContainer" id="spending4">$00.00</div>
+					</div>
+					<p>thu</p>
+				</div>
+				<div class="barContainer">
+					<div id="bar5" class="bar">
+						<div class="spendingContainer" id="spending5">$00.00</div>
+					</div>
+					<p>fri</p>
+				</div>
+				<div class="barContainer">
+					<div id="bar6" class="bar">
+						<div class="spendingContainer" id="spending6">$00.00</div>
+					</div>
+					<p>sat</p>
+				</div>
+				<div class="barContainer">
+					<div id="bar7" class="bar">
+						<div class="spendingContainer" id="spending7">$00.00</div>
+					</div>
+					<p>sun</p>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="cardFooter">
+				<p>Total this month</p>
+				<div class="footerBody">
+					<div class="footerLeft">
+						<h3>$478.33</h3>
+					</div>
+					<div class="footerRight">
+						<p>+2.4%</p>
+						<p>from last month</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
